@@ -1,0 +1,31 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.container-content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.list-footer{
+    list-style: none;
+    justify-content: left;
+    padding: 0;
+}
+.list-footer li{
+    display: flex;
+    justify-content: left;
+}
+
+.list-footer li:hover{
+    font-weight: bold;
+}
+.icon-card{
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+}

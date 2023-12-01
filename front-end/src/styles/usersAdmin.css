@@ -1,0 +1,125 @@
+
+container-full-users {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffffd0;
+    
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    height: 100%;
+}
+
+.card i {
+    color: #333;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10%;
+    width: calc(100%-20%);
+}
+
+hr{
+    width: 1527px;
+
+}
+
+p{
+    text-align: center;
+    
+}
+
+.usuarios-container {
+    margin: 20px auto; 
+    width: 1500px; 
+}
+
+#myTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#myTable th, #myTable td {
+    border: 1px solid rgb(127, 191, 255);
+    padding: 8px;
+    text-align: left;
+}
+
+#myTable th {
+    background-color: #87c0f5;
+    color: #fff;
+}
+
+
+
+
+button {
+    padding: 5px 10px;
+    background-color: #108bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.search-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.search-container input {
+    padding: 8px;
+    border: 1px solid #108bff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn-link {
+    float: right;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-bottom: 10px;
+}
+

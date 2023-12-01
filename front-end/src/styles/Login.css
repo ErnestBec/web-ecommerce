@@ -1,0 +1,42 @@
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container-login {
+    width: 500px;
+}
+.container-createaccount{
+    width: 500px;
+
+}
+.list-ben{
+    text-decoration: none;
+    list-style: none;
+}
+.btn_login{
+width:150px;
+border-radius: 15px;
+}
+
+.recuadro {
+    
+    height: 200px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+}
+
+
+.recuadro img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    margin-bottom: 5px; 
+    border-radius: 45%;
+    margin-top: 5px;
+
+    
+}
